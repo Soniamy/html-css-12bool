@@ -1,0 +1,92 @@
+/*------------------------
+          CONTAINER
+------------------------*/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*------------------------
+          ROW
+------------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*------------------------
+      RESET COLUMN
+------------------------*/
+[class*="col-"] {
+    flex: 0 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+/*------------------------
+         COLUMN
+------------------------*/
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+.col-1 {
+    width: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+}
+
+.col-4 { /* 33.33% */
+    width: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+}
+
+.col-5 {
+    width: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+}
+
+.col-6 { /* 50% */
+    width: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+
+.col-7 {
+    width: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+}
+
+.col-9 {
+    width: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+}
+
+.col-10 {
+    width: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+}
+
+.col-11 {
+    width: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+}
+
+.col-12 { /* 100% */
+    width: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
