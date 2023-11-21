@@ -17,23 +17,23 @@
 ------------------------*/
 [class*="col-"] {
     flex: 0 0 auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: white;
     background-color: rgb(115, 0, 255);
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 0.7em;
     border: 2px solid white;
 }
 [class*="col-in-"]{
     flex: 0 0 auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: white;
     background-color: rgb(255, 0, 162);
     text-transform: uppercase;
     font-size: 1em;
-    border: 2px solid white;
+    border: 1px  solid rgb(115, 0, 255);
 }
 /*------------------------
          COLUMN
@@ -215,4 +215,34 @@
 
 .col-offset-12 {
     margin-left: calc((100% / 12) * 12);
+}
+/*------------------------
+         ALIGNMENT
+------------------------*/
+.start{
+    justify-content: start;
+}
+.center{
+    justify-content: center;
+}
+.end{
+    justify-content: end;
+}
+.top{
+    align-items:flex-start;
+}
+.middle{
+    align-items: center;
+}
+.bottom{
+    align-items: flex-end;
+}
+/*------------------------
+         Justy Content
+------------------------*/
+.space-around{
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
 }
